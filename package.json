@@ -1,8 +1,8 @@
 {
 	"name": "togglecase",
 	"displayName": "ToggleCase",
-	"description": "Toggle selected string between camelCase, snake_case",
-	"version": "1.0.0",
+	"description": "Toggle selected string between camelCase and snake_case",
+	"version": "1.0.1",
 	"publisher": "mage1k99",
 	"author": {
 		"name": "MageshBabu",
