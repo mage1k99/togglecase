@@ -1,15 +1,15 @@
 {
 	"name": "togglecase",
 	"displayName": "ToggleCase",
-	"description": "Toggle selected string between camelCase, snake_case and kebab-case.",
+	"description": "Toggle selected string between camelCase, snake_case",
 	"version": "1.0.0",
-	"publisher": "wscourge",
+	"publisher": "mage1k99",
 	"author": {
-		"name": "Wiktor Plaga",
-		"email": "wscourge@gmail.com",
-		"url": "https://www.linkedin.com/in/wiktor-plaga-7a353a106/"
+		"name": "MageshBabu",
+		"email": "mage1k99@gmail.com",
+		"url": "https://mage1k99.eu.org/"
 	},
-	"homepage": "https://github.com/wscourge/togglecase/blob/master/README.md",
+	"homepage": "https://github.com/mage1k99/togglecase/blob/master/README.md",
 	"license": "MIT",
 	"icon": "images/logo-256x256.png",
 	"galleryBanner": {
@@ -22,15 +22,14 @@
 	"keywords": [
 		"snake_case",
 		"camelCase",
-		"kebab-case",
 		"toggle"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/wscourge/togglecase.git"
+		"url": "https://github.com/mage1k99/togglecase"
 	},
 	"bugs": {
-		"url": "https://github.com/wscourge/togglecase/issues"
+		"url": "https://github.com/mage1k99/togglecase/issues"
 	},
 	"engines": {
 		"vscode": "^1.46.0"
@@ -88,10 +87,8 @@
 	},
 	"dependencies": {
 		"@types/lodash.camelcase": "^4.3.6",
-		"@types/lodash.kebabcase": "^4.1.6",
 		"@types/lodash.snakecase": "^4.1.6",
 		"lodash.camelcase": "^4.3.0",
-		"lodash.kebabcase": "^4.1.1",
 		"lodash.snakecase": "^4.1.1"
 	}
 }
