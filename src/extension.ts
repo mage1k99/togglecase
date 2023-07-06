@@ -11,7 +11,6 @@ import {
 
 import camelCase from 'lodash.camelcase';
 import snakeCase from 'lodash.snakecase';
-import kebabCase from 'lodash.kebabcase';
 
 export function activate(context: ExtensionContext) {
 	context.subscriptions.push(commands.registerCommand('editor.togglecase', toggle));
@@ -73,12 +72,9 @@ function isSnakeCase(string: string) { return snakeCase(string) === string; }
 
 // 1. nocase -> camelCase
 // 2. camelCase -> snake_case
-// 3. snake_case -> kebab-case
-// 4. kebab-case -> camelCase
+// 3. snake_case -> camelCase
 function nextCase(value: string) {
 	if (isCamelCase(value)) {return snakeCase(value);}
-	if (isSnakeCase(value)) {return kebabCase(value);}
-	// nocase or kebab-case
 	return camelCase(value);
 }
 
